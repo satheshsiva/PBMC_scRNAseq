@@ -42,11 +42,19 @@ The raw fastq files were uploaded to https://www.ebi.ac.uk/ena/browser/view/PRJE
 
 ### Reference
 Andrews S (2010). FastQC: a quality control tool for high throughput sequence data. Available online at: http://www.bioinformatics.babraham.ac.uk/projects/fastqc.
+
 Song L and Florea L (2015). Rcorrector: efficient and accurate error correction for Illumina RNA-seq reads. Gigascience. 4:48. doi: 10.1186/s13742-015-0089-y.
+
 Bushnell B (2014) BBMap: a fast, accurate, splice-aware aligner. In: 9th Annual Genomics of Energy & Environment Meeting, Walnut Creek, CA. Available online at: https://jgi.doe.gov/data-and-tools/bbtools/bb-tools-user-guide/bbmap-guide/.
+
 Yates AD et al., (2020), Ensembl 2020. Nucleic Acids Res. 48:D682-D688. doi: 10.1093/nar/gkz966.
+
 Young MD, Behjati S (2020). SoupX removes ambient RNA contamination from droplet based single-cell RNA sequencing data. Gigascience. 9(12):giaa151. doi: 10.1093/gigascience/giaa151.
+
 Lun ATL, Riesenfeld S, Andrews T, Dao T, Gomes T, participants in the 1st Human Cell Atlas Jamboree, Marioni JC (2019). EmptyDrops: distinguishing cells from empty droplets in droplet-based single-cell RNA sequencing data. Genome Biol. 20, 63. doi: 10.1186/s13059-019-1662-y.
+
 Stuart T, Butler A, Hoffman P, Hafemeister C, Papalexi E, Mauck WM, Hao Y, Stoeckius M, Smibert P, Satija R (2019). Comprehensive Integration of Single-Cell Data. Cell. 177:1888-1902.e21. doi: 10.1016/j.cell.2019.05.031.
+
 Zheng GX, Terry JM, and Belgrader P (2017). Massively parallel digital transcriptional profiling of single cells. Nat Commun 8. doi: 10.1038/ncomms14049.
+
 Wolock SL, Lopez R and Klein AM (2019). Scrublet: Computational Identification of Cell Doublets in Single-Cell Transcriptomic Data. Cell Syst. 8:281-291.e9. doi: 10.1016/j.cels.2018.11.005

@@ -95,4 +95,5 @@ Table: Mapping statistics.
 | Fraction in Cells              | 91.20%      | 85.60%      | 86.20%     | 79.30%      | 91.90%      | 92.30%      | 90.60%   |
 | Total Genes Detected           | 13,478      | 13,424      | 13,468     | 13,607      | 13,707      | 14,217      | 14,425   |
 | Median UMI Counts per Cell     | 1,555       | 1,374       | 1,263      | 1,953       | 2,098       | 3,172       | 3,418    |
+
 ֎ = Reads Mapped
