@@ -10,13 +10,15 @@ Date:   "Feb 15, 2021"
 Pigs are an important protein source supporting global food security and are valuable as a human biomedical model. To examine immune cell gene expression and annotate genome function in this important species, single-cell RNA-sequencing (scRNA-seq) of PBMC populations was performed to more highly resolve PBMC population transcriptomes. Across seven PBMC samples partitioned and sequenced, 28,810 cells distributed across 36 clusters were classified into 13 general cell types including plasmacytoid dendritic cells (DC), conventional DCs, monocytes, >10 B cell clusters including plasmablasts, conventional CD4 and CD8 alpha-beta T cells, NK cells, and 4 clusters of gamma-delta T cells. This resource will be invaluable for annotation of pig genes controlling immunogenetic traits, as well as further study of, and development of new reagents for, porcine immunology.
 
 ## Sample information
-CT230OCT  - B1
-CT21NOV   - B2
-A         - C1
-B         - C2
-C         - C3
-PBMC1     - D1
-PBMC2     - D2
+| Internal | Publication |
+|----------|-------------|
+| CT230OCT | B1          |
+| CT21NOV  | B2          |
+| A        | C1          |
+| B        | C2          |
+| C        | C3          |
+| PBMC1    | D1          |
+| PBMC2    | D2          |
 
 ## Materials and Methods - scRNA-seq Data Analysis
 ### scRNA-seq read alignment and gene quantification
