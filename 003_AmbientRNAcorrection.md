@@ -90,7 +90,8 @@ The SoupX correction was completed and and need to save our strained count matri
 ```
 write10xCounts("SoupX/A", out, version = "3")
 ```
-Same process was repeated to all other sample sets.
+
+## Same process was repeated to all other sample sets.
 
 ### B
 ```
@@ -445,3 +446,6 @@ plot_grid(C1, C2, C3, C4, C5, C6, C7, nrow = 2)
 write10xCounts("SoupX/PBMC2", out, version = "3")
 ```
 ![**Figure 4.**:Plot](Notebook/SoupX/P24.png)
+
+### Ambient RNA correction was successfully completed.
+### ___END___

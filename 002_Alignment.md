@@ -97,3 +97,6 @@ Table: Mapping statistics.
 | Median UMI Counts per Cell     | 1,555       | 1,374       | 1,263      | 1,953       | 2,098       | 3,172       | 3,418    |
 
 ֎ = Reads Mapped
+
+### Alignment and read counting was successfully completed.
+### ___END___ 
