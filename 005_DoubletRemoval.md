@@ -7,23 +7,16 @@ Date:   "Feb 15, 2021"
 # Porcine Immune Single Cell Atlas
 
 ## Doublet cells filtering.
-progressed cells and genes from each sample were analyzed using the Python package, Scrublet (v0.2; https://github.com/AllonKleinLab/scrublet), to remove highly probable neotypic doublets. To estimate the doublet rate of each cell Scrublet was accessed via JupyterHub. For each sample, synthetic doublets were generated using the different doublet rate parameters various from 0.060 to 0.080 with 0.005 intervals. Jupyter notebook scripts to estimate doublet rate score for each sample was located in:
-![A](Notebook/Doublet/A.ipynb)
+progressed cells and genes from each sample were analyzed using the Python package, Scrublet (v0.2; https://github.com/AllonKleinLab/scrublet), to remove highly probable neotypic doublets. To estimate the doublet rate of each cell Scrublet was accessed via JupyterHub. For each sample, synthetic doublets were generated using the different doublet rate parameters various from 0.060 to 0.080 with 0.005 intervals. Jupyter notebook scripts to estimate doublet rate score for each sample was located in:\
+![A](Notebook/Doublet/A.ipynb)\
+![B](Notebook/Doublet/B.ipynb)\
+![C](Notebook/Doublet/C.ipynb)\
+![CT21NOV](Notebook/Doublet/CT21NOV.ipynb)\
+![CT230OCT](Notebook/Doublet/CT230OCT.ipynb)\
+![PBMC1](Notebook/Doublet/PBMC1.ipynb)\
+![PBMC2](Notebook/Doublet/PBMC2.ipynb)\
 
-![B](Notebook/Doublet/B.ipynb)
-
-![C](Notebook/Doublet/C.ipynb)
-
-![CT21NOV](Notebook/Doublet/CT21NOV.ipynb)
-
-![CT230OCT](Notebook/Doublet/CT230OCT.ipynb)
-
-![PBMC1](Notebook/Doublet/PBMC1.ipynb)
-
-![PBMC2](Notebook/Doublet/PBMC2.ipynb)
-
-A Scrublet object was created using doublet rate of 0.070. Doublet scores were calculated, and a doublet score threshold of 0.25 was set based on a bimodal distribution observed between embedded and neotypic doublets.
-
+A Scrublet object was created using doublet rate of 0.070. Doublet scores were calculated, and a doublet score threshold of 0.25 was set based on a bimodal distribution observed between embedded and neotypic doublets.\
 ![DoubletEstimated.ipynb](Notebook/Doublet/DoubletEstimated.ipynb)
 
 Finally, a lists of doublet probability scores were generated and imported into R, where cells with corresponding doublet probability scores grater than 0.25 were removed from the dataset. Filtered count matrix for each sample was outputted into CellRanger format using DropletUtils.
