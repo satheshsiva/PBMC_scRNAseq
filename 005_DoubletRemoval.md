@@ -14,10 +14,10 @@ progressed cells and genes from each sample were analyzed using the Python packa
 ![CT21NOV](Notebook/Doublet/CT21NOV.ipynb)\
 ![CT230OCT](Notebook/Doublet/CT230OCT.ipynb)\
 ![PBMC1](Notebook/Doublet/PBMC1.ipynb)\
-![PBMC2](Notebook/Doublet/PBMC2.ipynb)\
+![PBMC2](Notebook/Doublet/PBMC2.ipynb)
 
 A Scrublet object was created using doublet rate of 0.070. Doublet scores were calculated, and a doublet score threshold of 0.25 was set based on a bimodal distribution observed between embedded and neotypic doublets.\
-![DoubletEstimated.ipynb](Notebook/Doublet/DoubletEstimated.ipynb)
+![DoubletEstimated](Notebook/Doublet/DoubletEstimated.ipynb)
 
 Finally, a lists of doublet probability scores were generated and imported into R, where cells with corresponding doublet probability scores grater than 0.25 were removed from the dataset. Filtered count matrix for each sample was outputted into CellRanger format using DropletUtils.
 
