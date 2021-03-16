@@ -16,11 +16,19 @@ module load parallel
 parallel -j 6 "fastqc {} -t 6 -o FQC/" ::: *.fastq.gz
 ```
 
-Results were stored in one location and combined using MultiQC (https://multiqc.info/) using the below mentioned command. MultiQC results can be found at location: Notebook/FastQC/ (please download the html file alone with the supporting folder to view the results).
+Results were stored in one location and combined using MultiQC (https://multiqc.info/) using the below mentioned command.
 ```
 module load python_2
 multiqc .
 ```
+MultiQC results could be found.\
+![A](Notebook/FastQC/A.html)\
+![B](Notebook/FastQC/B.html)\
+![C](Notebook/FastQC/C.html)\
+![CT21NOV](Notebook/FastQC/CT21NOV.html)\
+![CT230OCT](Notebook/FastQC/CT230OCT.html)\
+![PBMC1](Notebook/FastQC/PBMC1.html)\
+![PBMC2](Notebook/FastQC/PBMC2.html)
 
 ### R-correction
 Reads 2 (R2) were corrected for errors using Rcorrector (https://github.com/mourisl/Rcorrector).
@@ -99,4 +107,4 @@ Table: Mapping statistics.
 ֎ = Reads Mapped
 
 ### Alignment and read counting was successfully completed.
-### ___END___ 
+### ___END___
